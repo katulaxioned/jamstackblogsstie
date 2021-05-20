@@ -1,6 +1,7 @@
 module.exports = function(config) {
 
   config.addPassthroughCopy("assets")
+  config.addPassthroughCopy("favicon.ico")
 
   return {
     dir: {
