@@ -7,7 +7,8 @@ module.exports = function(config) {
     dir: {
       input: "src",
       output: "_site",
-      includes: "includes"
+      includes: "includes",
+      data: "_data"
     }
   }
 
