@@ -194,4 +194,26 @@ header .wrapper h1::before {
   font-weight: 600;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.pagination li{ margin: 20px 5px;}
+
+.pagination a {
+  padding: 5px 8px;
+  border: 1px solid #46a5e3;
+  color: #3f434c;
+  text-decoration: none;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.pagination a:hover {
+  transition: .5s;
+  background-color: #46a5e3;
+}
+
 /* Blogs styling end. */
