@@ -216,4 +216,7 @@ header .wrapper h1::before {
   background-color: #46a5e3;
 }
 
+.active {
+  background-color: #46a5e3;
+}
 /* Blogs styling end. */

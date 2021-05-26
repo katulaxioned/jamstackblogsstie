@@ -26,7 +26,7 @@ permalink: "/{% if pagination.pageNumber>0 %}{{ pagination.pageNumber + 1 }}{% e
       <ul class="pagination">
         {% set regExp = r/^\/$/g %}
         {% for link in pagination.hrefs %}
-          <li><a href="{{ link }}">{{"1" if regExp.test(link) else link | replace("/", "") }}</a></li>
+          <li><a href="{{ link }}" class="{{ 'active' if page.url == link else 'no'}}">{{"1" if regExp.test(link) else link | replace("/", "") }}</a></li>
         {% endfor %}
       </ul>
     </div>
