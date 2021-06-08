@@ -17,10 +17,10 @@ permalink: "/{% if pagination.pageNumber>0 %}{{ pagination.pageNumber + 1 }}{% e
     <div class="wrapper">
       {% for blog in blogs %}
         <article>
-          <h2><a href="#FIXME" title="Read more">{{ blog.title }}</a></h2>
+          <h2><a href="/eachpost/{{ blog.id }}" title="Read more">{{ blog.title }}</a></h2>
           <span class="authorname">atul blogging tips<time>may 20, 2021</time></span>
           <p>{{ blog.body }}</p>
-          <a href="#FIXME" class="read">Read more</a>
+          <a href="/eachpost/{{ blog.id }}" class="read">Read more</a>
         </article>
       {% endfor %}
       <ul class="pagination">

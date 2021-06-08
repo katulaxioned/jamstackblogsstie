@@ -20,6 +20,9 @@
   "homepage": "https://github.com/katulaxioned/jamstackblogsstie#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "markdown-it": "^12.0.6",
+    "markdown-it-attrs": "^4.0.0",
+    "markdown-it-container": "^3.0.0"
   }
 }
