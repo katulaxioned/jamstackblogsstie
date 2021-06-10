@@ -19,7 +19,7 @@ permalink: "/{% if pagination.pageNumber>0 %}{{ pagination.pageNumber + 1 }}{% e
         <article>
           <h2><a href="/eachpost/{{ blog.id }}" title="Read more">{{ blog.title }}</a></h2>
           <span class="authorname">atul blogging tips<time>may 20, 2021</time></span>
-          <p>{{ blog.body }}</p>
+          <p>{{ blog.body | truncate(100) }}</p>
           <a href="/eachpost/{{ blog.id }}" class="read">Read more</a>
         </article>
       {% endfor %}

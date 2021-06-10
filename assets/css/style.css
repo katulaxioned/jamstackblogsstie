@@ -220,3 +220,32 @@ header .wrapper h1::before {
   background-color: #46a5e3;
 }
 /* Blogs styling end. */
+/* Each post page styling start. */
+.container-eachpost h2{
+  font-size: 30px;
+  font-weight: 600;
+  color: #333333;
+  text-align: center;
+}
+
+.container-eachpost h2::first-letter {
+  color: #46a5e3;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.container-eachpost h1 {
+  color: #333333;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 20px;
+  margin: 20px 0;
+}
+
+.container-eachpost p {
+  color: #333333;
+  font-size: 18px;
+  padding: 0 20px;
+  margin: 20px 0;
+}
+/* Each post page styling end. */

@@ -7,6 +7,9 @@ pagination:
 permalink: "/eachpost/{{ blogs.id }}/"
 ---
 
-## This is {{ blogs.id }}th blog page.
-# {{ blogs.title }}
-{{ blogs.body }}
+::: container-eachpost
+## This is blog page ID number {{ blogs.id }}.
+# Post title :- {{ blogs.title }}
+Post description :- {{ blogs.body }}
+<!-- excerpt -->
+:::
